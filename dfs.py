@@ -5,7 +5,7 @@ adjacency_list = [[] for _ in range(n)]
 for i in range(m):
     u = int(input())
     v = int(input())
-    adjacency_list[u].append(v)  # node start from 0 -> u-1
+    adjacency_list[u].append(v)  
 print(adjacency_list)
 time = 0
 
